@@ -57,6 +57,9 @@
 
 
                     <div>already have an accout! <span><a href="login.php">login here</a></span></div>
+
+                    <br>
+                    <div> <span><a href="index.php">back!</a></span></div>
                     
                 </form>
             </div>

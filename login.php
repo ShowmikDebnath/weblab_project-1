@@ -40,6 +40,9 @@
                     <button type="submit" class="btn btn-primary col-12" name="login">Login</button>
 
                     <div>already have an accout! <span><a href="register.php">Register here!</a></span></div>
+
+                    <br>
+                    <div> <span><a href="index.php">back!</a></span></div>
                     
                 </form>
             </div>
