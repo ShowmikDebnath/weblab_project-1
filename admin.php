@@ -16,7 +16,7 @@ include "config.php";
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>PHP CRUD Application</title>
+  <title>DSA-Admin</title>
 
   <style>
     a{
@@ -78,8 +78,8 @@ include "config.php";
 
   <br>
 
-  <a href="homepage.php"><div class="d-grid gap-2 col-6 mx-auto">
-  <button class="btn btn-success" type="button">Visit website</button></div></a>
+  <a href="home.php"><div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-success" type="button">Visit website (login in user mode)</button></div></a>
 
   <br>
   <a href="login.php"><div class="d-grid gap-2 col-6 mx-auto">

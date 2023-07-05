@@ -37,7 +37,7 @@ if (isset($_POST["submit"])) {
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>PHP CRUD Application</title>
+  <title>DSA-Admin</title>
 </head>
 
 <body>
@@ -74,15 +74,7 @@ if (isset($_POST["submit"])) {
           <input type="number" class="form-control" name="mobile" value="<?php echo $row['mobile'] ?>">
         </div>
 
-        <!-- <div class="form-group mb-3">
-          <label>Gender:</label>
-          &nbsp;
-          <input type="radio" class="form-check-input" name="gender" id="male" value="male" <?php echo ($row["gender"] == 'male') ? "checked" : ""; ?>>
-          <label for="male" class="form-input-label">Male</label>
-          &nbsp;
-          <input type="radio" class="form-check-input" name="gender" id="female" value="female" <?php echo ($row["gender"] == 'female') ? "checked" : ""; ?>>
-          <label for="female" class="form-input-label">Female</label>
-        </div> -->
+        
 
         <div>
           <button type="submit" class="btn btn-success" name="submit">Update</button>

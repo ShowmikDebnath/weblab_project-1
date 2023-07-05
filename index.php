@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
   <style>
-    /* Custom styles for this page */
+    
     body {
       height: 100vh;
       background-image: url('img/welcomeImg3.jpg');
@@ -47,12 +47,9 @@
         <h1>Welcome to DSA-learning platform</h1>
         <p><b>To join our platform, Please Register first!</b></p>
         <p>Happy Learning</p>
-        <!-- <div class="d-grid gap-2 col-lg-6 col-md-8 col-sm-10 mx-auto btn btn-primary">
-          <a href="#" >Log In</a>
-          <a href="#" class="btn btn-outline-primary">Register</a>
-        </div> -->
+        
         <div>
-          <!-- <button type="submit" class="btn btn-success" name="submit">Update</button> -->
+          
           <a href="login.php" class="btn btn-light">LogIn</a>
           <a href="register.php" class="btn btn-success">Join our Platform</a>
         </div>

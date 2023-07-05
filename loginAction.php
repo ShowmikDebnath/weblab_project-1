@@ -17,7 +17,7 @@ if(isset($_POST['login'])){
             session_start();
             $_SESSION['username'] = $l_username; //session create
             echo "<script>location.href='home.php'</script>";
-            //echo "<script>location.href='homepage.php'</script>";
+            
             
         }
         else{
